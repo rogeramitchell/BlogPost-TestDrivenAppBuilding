@@ -11,7 +11,7 @@ I'm a bit biased, but the first option sounds like a lot of work and has room fo
 
 If we choose the **red pill**, it means we roll up our sleeves and write a little Apex, but we benefit heaps of time for every deployment thereafter.
 
-## Hold on, we want me to write Apex for every workflow rule?
+## Hold on, you want me to write Apex to test every workflow rule?
 
 No way! At least, not necessarily. Salesforce allows us to build and deploy changes to our end users in a quick, agile manner, and the end goal is to ensure that our end users have the best experience possible.
 
@@ -21,7 +21,7 @@ Larger business processes (think: an account onboarding process) benefit from **
 
 Great! Let's consider a use case where we have a custom integration with our finance team's ERP system, and see how **Test Driven App Building** can help troubleshoot the root cause.
 
-Universal Containers has an ERP system that manages customer invoices, and a custom integration pushes this data into Salesforce on a nightly basis. we've noticed that our numbers are not adding up, as the Finance Team suggests invoices are being paid, but the Sales Team still sees unpaid invoices in Salesforce. What happened? Is the integration not working? Did someone change the integration jobs, or did someone change something in Salesforce?
+Universal Containers has an ERP system that manages customer invoices, and a custom integration pushes this data into Salesforce on a nightly basis. We've noticed that our numbers are not adding up, as the Finance Team suggests invoices are being paid, but the Sales Team still sees unpaid invoices in Salesforce. What happened? Is the integration not working? Did someone change the integration jobs, or did someone change something in Salesforce?
 
 Custom integrations may not involve any Apex code, and may rely upon the existing set of APIs provided by Salesforce. We're a bit in the dark here.
 
