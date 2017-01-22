@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>InvoiceIntegrationTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Invoice__c.Account__c</members>
+        <members>Invoice__c.Amount__c</members>
+        <members>Invoice__c.Date_Paid__c</members>
+        <members>Invoice__c.Date_Sent__c</members>
+        <members>Invoice__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Invoice__c.Date_Paid_Required_For_Status_as_Paid</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>37.0</version>
+</Package>
